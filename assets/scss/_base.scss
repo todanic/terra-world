@@ -1,0 +1,20 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: $baseColor;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  margin: 0 auto;
+  @media screen and (min-width: 1600px) {
+    max-width: 1600px;
+  }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    max-width: 960px;
+  }
+}

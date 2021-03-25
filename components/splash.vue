@@ -1,18 +1,18 @@
 <template>
-   <v-container fluid class="splash-container pa-0">
+   <section fluid class="splash pa-0 wrapper">
     <v-carousel
         ripple
-      dark class="splash-container__carousel"
+      dark class="splash-carousel"
       fade
       cycle
       light
-      height="600"
+      height="500"
       hide-delimiter-background
       :show-arrows="false">
       <v-carousel-item :src="image.src" v-for="(image, i) in images" :key="i">
       </v-carousel-item>
     </v-carousel>
-  </v-container>
+  </section>
 </template>
 <script>
   export default {

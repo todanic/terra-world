@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-     <header class="header">
+     <header class="header wrapper">
        <router-link to="/" exact>
          <Logo />
         </router-link>
-      <nav class="inner" role="navigation">
-        <router-link v-for="(list, key) in routes" :key="key" :to="`/${key}`">
+      <nav class="header-navigation" role="navigation">
+        <router-link class="header-navigation--link" v-for="(list, key) in routes" :key="key" :to="`/${key}`">
           {{ list.title }}
         </router-link>
       </nav>
     </header>
+      <div class="divider"></div>
     <nuxt nuxt-child-key="none" role="main" />
   </div>
 </template>

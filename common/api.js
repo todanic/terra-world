@@ -1,7 +1,7 @@
 export const routes = {
   home: { title: "home" },
-  aboutUs: { title: "About us" },
-  contactUs: { title: "Contact us" },
+  "about-us": { title: "About us" },
+  "contact-us": { title: "Contact us" },
   gallery: { title: "Gallery" }
 };
 
