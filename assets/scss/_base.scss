@@ -5,8 +5,15 @@ body {
 
 h1 {
   color: $baseColor;
-  font-size: 26px;
+  font-size: 30px;
   text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+p,
+a {
+  letter-spacing: 1px;
 }
 
 .wrapper {

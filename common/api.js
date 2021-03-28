@@ -1,8 +1,8 @@
 export const routes = {
-  home: { title: "home" },
-  "about-us": { title: "About us" },
-  "contact-us": { title: "Contact us" },
-  gallery: { title: "Gallery" }
+  home: { title: "Početna" },
+  "about-us": { title: "O nama" },
+  "contact-us": { title: "Kontakt" },
+  gallery: { title: "Galerija" }
 };
 
 export const validRoutes = Object.keys(routes);

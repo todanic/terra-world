@@ -1,0 +1,24 @@
+.gallery-component {
+  &--list {
+    display: inline-grid;
+    list-style: none;
+  }
+  &--item {
+    width: 33%;
+  }
+  &--image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: 1px solid #ebebeb;
+    margin: 12px;
+    transition: all 0.3s;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+  &--title {
+    margin-bottom: 40px;
+  }
+}
