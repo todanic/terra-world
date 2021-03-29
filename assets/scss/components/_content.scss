@@ -1,0 +1,15 @@
+.content {
+  &--list {
+    list-style: none;
+    li:before {
+      content: "\2022";
+      color: $baseColor;
+      font-size: 28px;
+      vertical-align: middle;
+    }
+  }
+  &--text {
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+}

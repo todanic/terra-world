@@ -18,6 +18,7 @@
     </header>
     <div class="divider"></div>
     <nuxt nuxt-child-key="none" role="main" />
+    <Footer />
   </div>
 </template>
 <script>

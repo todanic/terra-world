@@ -1,13 +1,14 @@
 <template>
-  <section fluid class="splash pa-0 container">
+  <section style="padding-top: 0" fluid class="splash pa-0 container">
     <v-carousel
       dark
       class="splash-carousel"
       fade
       cycle
       light
-      height="500"
+      :height="height + 'px'"
       hide-delimiter-background
+      delimiter-icon="mdi-minus"
       :show-arrows="false"
     >
       <v-carousel-item :src="image.src" v-for="(image, i) in images" :key="i">
@@ -24,5 +25,12 @@ export default {
       { src: require("../assets/images/splash/splash1.jpg") },
     ],
   }),
+  props: {
+    height: {
+      type: Number,
+      required: false,
+      default: 500,
+    },
+  },
 };
 </script>

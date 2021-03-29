@@ -2,7 +2,7 @@
   <section class="footer">
     <v-container>
       <v-row>
-        <v-col class="col-6">
+        <v-col class="col-6 footer--content">
           <p class="contact-us--text">PIB: 112225543</p>
           <p class="contact-us--text">MATIČNI BROJ: 21630365</p>
 
@@ -11,7 +11,12 @@
           <p class="contact-us--text">VRBASKA 35, SRBOBRAN</p>
           <p class="contact-us--text">DIREKTOR SAVIC ZORAN</p>
         </v-col>
-        <v-col class="col-6"> </v-col>
+        <v-col class="col-6">
+          <p style="color: #fff; font-size: 30px" class="logo">
+            NOVI DOM GRADJEVINSKI <br />
+            CENTAR doo
+          </p>
+        </v-col>
       </v-row>
     </v-container>
   </section>
