@@ -1,5 +1,5 @@
 <template>
-  <section style="padding-top: 0" fluid class="splash pa-0 container">
+  <section style="padding-top: 0" fluid class="splash pa-0">
     <v-carousel
       dark
       class="splash-carousel"
