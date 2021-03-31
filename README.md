@@ -18,3 +18,8 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Github pages
+npm run build
+npm run deploy ( "deploy": "gh-pages -d dist")
+--This pushes the dis directory to the gh-pages branch
