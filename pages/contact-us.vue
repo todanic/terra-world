@@ -1,6 +1,5 @@
 <template>
-<div class="wrapper">
- <ContactUs />
-</div>
-
+  <v-container>
+    <ContactUs />
+  </v-container>
 </template>

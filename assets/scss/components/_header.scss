@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: $baseColor;
   &-navigation {
     margin: 26px 0 20px 0;
   }
@@ -12,20 +13,41 @@
     transition: all 0.5s ease;
     text-decoration: none;
     padding: 0 20px;
-    color: $navigationColor;
+    color: #fff;
     &:hover {
-      color: $baseColor;
       transform: scale(1.1);
       transition: 0.3s ease-in-out;
     }
   }
 }
 .logo {
-  color: $baseColor;
+  color: #fff;
   font-size: 40px;
   font-weight: bold;
   text-shadow: 2px 0px 3px #000000;
   margin-top: 32px;
   text-align: center;
   letter-spacing: 2.5px;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 30px;
+  }
+  .header {
+    &-navigation {
+      display: flex;
+      width: 100%;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &-navigation--link {
+      font-size: 14px;
+      padding: 4px 20px;
+      margin-left: 13px;
+    }
+    &-navigation--link:first-child {
+      margin: 0;
+    }
+  }
 }

@@ -1,8 +1,10 @@
 <template>
-  <section class="contact-us content-padding">
-    <h1 class="contact-us--title text-center">Kontaktirajte nas</h1>
+  <section class="contact-us">
+    <h1 style="margin-top: 40px" class="contact-us--title text-center">
+      Kontaktirajte nas
+    </h1>
     <v-row>
-      <v-col class="col-2">
+      <v-col class="col-lg-2 col-12">
         <p class="contact-us--text">
           <span style="color: #004e7c; font-weight: bold">PIB:</span> 112225543
         </p>
@@ -22,7 +24,7 @@
         <p class="contact-us--text">VRBASKA 35, SRBOBRAN</p>
         <p class="contact-us--text">DIREKTOR SAVIC ZORAN</p>
       </v-col>
-      <v-col class="col-10 contact-us--form">
+      <v-col class="col-lg-10 col-12 contact-us--form">
         <v-text-field color="#004e7c" label="Ime" v-model="firstName">
         </v-text-field>
         <v-text-field color="#004e7c" label="Email" v-model="email">
@@ -39,7 +41,7 @@
         >
         </v-textarea>
         <v-btn
-          style="margin-top: 20px"
+          style="margin-top: 20px; margin-bottom: 20px"
           width="200px"
           type="submit"
           color="#004e7c"

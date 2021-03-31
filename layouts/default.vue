@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header class="header container">
+    <header class="header">
       <p class="logo">
         NOVI DOM GRADJEVINSKI <br />
         CENTAR doo
@@ -16,7 +16,6 @@
         </router-link>
       </nav>
     </header>
-    <div class="divider"></div>
     <nuxt nuxt-child-key="none" role="main" />
     <Footer />
   </div>

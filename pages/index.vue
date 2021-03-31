@@ -1,9 +1,6 @@
-<script>
-import { validRoutes } from '~/common/api'
-
-export default {
-  fetch ({ redirect }) {
-    redirect('/' + validRoutes[0])
-  }
-}
-</script>
+<template>
+  <v-container class="homepage" style="padding-top:0;">
+    <Splash />
+    <Content />
+  </v-container style="padding-top:0;">
+</template>

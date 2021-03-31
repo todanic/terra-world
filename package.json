@@ -9,9 +9,10 @@
     "generate": "nuxt generate",
     "predeploy": "nuxt generate",
     "deploy": "gh-pages -d dist",
-    "test": "jest"
+    "test": "jest",
+    "clean" : "gh-pages-clean"
   },
-  "homepage": "http:todanic.github.io/terra-world",
+  "homepage": "http://todanic.github.io/terra-world",
   "repo": "https://github.com/todanic/terra-world.git",
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.0",
